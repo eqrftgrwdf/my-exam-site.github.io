@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category1</title>
+    <style>
+        body {
+            overflow: hidden;
+            user-select: none;
+            margin: 0px;
+            background-color: #333;
+            font-family: 'Segoe UI';
+            color: white;
+        }
+
+        .header {
+            height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #646464;
+        }
+
+        .logo {
+            cursor: pointer;
+            font-size: 30px;
+            font-weight: 600;
+            margin: 10px;
+        }
+
+        input {
+            margin-top: 0.2%;
+            border-radius: 5px;
+            padding-block: 4px;
+            padding-right: 35%;
+            background-color: gray;
+            border: none;
+            outline: none;
+        }
+
+
+        button {
+            padding: 3px;
+            padding-inline: 7px;
+            background-color: red;
+            border: none;
+            border-radius: 5px;
+            margin-inline: 10px;
+            margin-bottom: 3px;
+        }
+
+        .category {
+            width: 100%;
+            padding-inline: 10px;
+        }
+
+        a {
+            font-family: Segoe UI;
+            color: white;
+        }
+
+        .contCard {
+            display: flex;
+            gap: 20px;
+            border: 1px solid #646464;
+            padding: 20px;
+            width: fit-content;
+            border-radius: 10px;
+        }
+
+        .contCard2 {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+            width: min-content;
+            border-radius: 10px;
+        }
+
+        .card {
+            min-width: 150px;
+            height: 200px;
+            background: #5a5a5a;
+            flex-shrink: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            font-size: 30px;
+            font-family: sans-serif;
+        }
+
+        .card.hg {
+            height: 200px;
+        }
+
+        .card>span {
+            margin-top: 10px;
+            background-color: #2dcf35;
+            color: black;
+            border-radius: 5px;
+            padding-inline: 10px;
+        }
+
+        .footer {
+            border-top: 1px solid gray;
+            display: flex;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 6%;
+            justify-content: center;
+            align-items: center;
+        }
+
+        img {
+            height: 125px;
+            width: 110px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <span class="logo"><a href="mainPage.html">Paralelolgram</a></span>
+        <input type="text" placeholder=" Search......" />
+        <div>
+            <svg style="cursor: pointer;" xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960"
+                width="48px" fill="#FFFFFF">
+                <path
+                    d="M480-481q-66 0-108-42t-42-108q0-66 42-108t108-42q66 0 108 42t42 108q0 66-42 108t-108 42ZM160-160v-94q0-38 19-65t49-41q67-30 128.5-45T480-420q62 0 123 15.5t127.92 44.69q31.3 14.13 50.19 40.97Q800-292 800-254v94H160Zm60-60h520v-34q0-16-9.5-30.5T707-306q-64-31-117-42.5T480-360q-57 0-111 11.5T252-306q-14 7-23 21.5t-9 30.5v34Zm260-321q39 0 64.5-25.5T570-631q0-39-25.5-64.5T480-721q-39 0-64.5 25.5T390-631q0 39 25.5 64.5T480-541Zm0-90Zm0 411Z" />
+            </svg>
+            <svg style="cursor: pointer;" xmlns="http://www.w3.org/2000/svg" height="42px" viewBox="0 -960 960 960"
+                width="45px" fill="#FFFFFF">
+                <path
+                    d="M286.79-81Q257-81 236-102.21t-21-51Q215-183 236.21-204t51-21Q317-225 338-203.79t21 51Q359-123 337.79-102t-51 21Zm400 0Q657-81 636-102.21t-21-51Q615-183 636.21-204t51-21Q717-225 738-203.79t21 51Q759-123 737.79-102t-51 21ZM235-741l110 228h288l125-228H235Zm-30-60h589.07q22.97 0 34.95 21 11.98 21-.02 42L694-495q-11 19-28.56 30.5T627-453H324l-56 104h491v60H277q-42 0-60.5-28t.5-63l64-118-152-322H51v-60h117l37 79Zm140 288h288-288Z" />
+            </svg>
+        </div>
+    </div>
+    <div class="category">
+        <h2 style="text-align: center;"><a href="mainPage.html">Category 1 > Home</a></h2>
+        <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 20px;">
+            <div class="contCard">
+                <div class="card hg"><img
+                        src="https://static.chicco.com.ua/images/448xAUTO/48c01b7b7471b9befed67247c3942688.jpg"><span>1
+                        099 ₴</span></div>
+                <div class="card hg"><img
+                        src="https://static.chicco.com.ua/images/448xAUTO/b04bddeeeb211d017e50953e3e640239.jpg"><span>1
+                        459 ₴</span></div>
+                <div class="card hg"><img
+                        src="https://static.chicco.com.ua/images/448xAUTO/1a0b6f111b2311478daf7691dc655642.jpg"><span>1
+                        890 ₴</span></div>
+                <div class="card hg"><img
+                        src="https://static.chicco.com.ua/images/448xAUTO/d07a25d5b92096aa3181acfe20857fe0.jpg"><span>1
+                        290 ₴</span></div>
+                <div class="card hg"><img
+                        src="https://static.chicco.com.ua/images/448xAUTO/9e5508f3ceddd97e843113798eec079c.jpg"><span>1
+                        890 ₴</span></div>
+            </div>
+            <div class="contCard">
+                <div class="card hg"><img
+                        src="https://static.chicco.com.ua/images/448xAUTO/b78bff645417d6b952ee829c9c121b7a.jpg"><span>1
+                        790 ₴</span></div>
+                <div class="card hg"><img
+                        src="https://static.chicco.com.ua/images/448xAUTO/d07a25d5b92096aa3181acfe20857fe0.jpg"><span>1
+                        290 ₴</span></div>
+                <div class="card hg"><img
+                        src="https://static.chicco.com.ua/images/448xAUTO/13e177d0c97dd668ac72ce4d16c9b50b.jpg"><span>1
+                        190 ₴</span></div>
+                <div class="card hg"><img
+                        src="https://static.chicco.com.ua/images/448xAUTO/48c01b7b7471b9befed67247c3942688.jpg"><span>1
+                        099 ₴</span></div>
+            </div>
+            <div class="contCard">
+                <div class="card hg"><img
+                        src="https://static.chicco.com.ua/images/448xAUTO/0871477bdf5808019a6f7c3e0b773a9f.jpg"><span>1
+                        690 ₴</span></div>
+                <div class="card hg"><img
+                        src="https://static.chicco.com.ua/images/448xAUTO/b04bddeeeb211d017e50953e3e640239.jpg"><span>1
+                        459 ₴</span></div>
+                <div class="card hg"><img
+                        src="https://static.chicco.com.ua/images/448xAUTO/824c9374251baf2b3c2ee74678f898a1.jpg"><span>3
+                        390 ₴</span></div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <b style="cursor: pointer;">Contacts</b>
+        &nbsp
+        <button style="margin-left: 5% ;"><a href="https://www.youtube.com/@A4a4a4a4"><svg
+                    xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px"
+                    fill="#e3e3e3">
+                    <path
+                        d="m380-300 280-180-280-180v360ZM160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm0-80h640v-480H160v480Zm0 0v-480 480Z" />
+                </svg></a></button>
+        <button><a href="https://www.youtube.com/@A4a4a4a4"><svg xmlns="http://www.w3.org/2000/svg" height="30px"
+                    viewBox="0 -960 960 960" width="30px" fill="#e3e3e3">
+                    <path
+                        d="m380-300 280-180-280-180v360ZM160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm0-80h640v-480H160v480Zm0 0v-480 480Z" />
+                </svg></a></button>
+        <button><a href="https://www.youtube.com/@A4a4a4a4"><svg xmlns="http://www.w3.org/2000/svg" height="30px"
+                    viewBox="0 -960 960 960" width="30px" fill="#e3e3e3">
+                    <path
+                        d="m380-300 280-180-280-180v360ZM160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm0-80h640v-480H160v480Zm0 0v-480 480Z" />
+                </svg></a></button>
+        <button style="margin-right: 5%;"><a href="https://www.youtube.com/@A4a4a4a4"><svg
+                    xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px"
+                    fill="#e3e3e3">
+                    <path
+                        d="m380-300 280-180-280-180v360ZM160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm0-80h640v-480H160v480Zm0 0v-480 480Z" />
+                </svg></a></button>
+        <b style="cursor: pointer;"><a href="mainPage.html">Paralelolgram</a></b>
+    </div>
+</body>
+
+</html>
